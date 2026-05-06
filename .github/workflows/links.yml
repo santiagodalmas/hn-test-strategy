@@ -21,5 +21,5 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --max-concurrency 4 --exclude-mail './**/*.md'
+          args: --verbose --no-progress --max-concurrency 4 './**/*.md'
           fail: true
